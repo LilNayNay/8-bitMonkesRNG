@@ -1,5 +1,3 @@
-/* eslint-disable require-yield, eqeqeq */
-
 import {
   Sprite,
   Trigger,
@@ -423,6 +421,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 0)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 0);
           this.costume = "*-bit monkey";
         }
         if (
@@ -431,6 +430,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 1)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 1);
           this.costume = "uncommon";
         }
         if (
@@ -439,6 +439,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 2)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 2);
           this.costume = "rare";
         }
         if (
@@ -447,6 +448,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 3)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 3);
           this.costume = "ligma common";
           this.broadcast("monke");
         }
@@ -456,6 +458,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 4)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 4);
           this.costume = "water rare";
           this.broadcast("monke");
         }
@@ -465,6 +468,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 5)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 5);
           this.costume = "savage";
           this.broadcast("monke");
         }
@@ -474,6 +478,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 6)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 6);
           this.costume = "super rare";
           this.broadcast("monke");
         }
@@ -483,6 +488,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 7)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 7);
           this.costume = "exotic";
           this.broadcast("monke");
         }
@@ -492,6 +498,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 8)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 8);
           this.costume = "ligma exotic";
           this.broadcast("monke");
         }
@@ -501,6 +508,7 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 9)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(this.stage.vars.allMonkes, 9);
           this.costume = "Scratch";
           this.broadcast("monke");
         }
@@ -510,6 +518,10 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 10)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(
+            this.stage.vars.allMonkes,
+            10
+          );
           this.costume = "SMOL Water mutated: SCRATCH";
           this.broadcast("monke");
         }
@@ -519,6 +531,10 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 11)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(
+            this.stage.vars.allMonkes,
+            11
+          );
           this.costume = "Fisher {Fan suggested";
         }
         if (
@@ -527,6 +543,10 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 13)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(
+            this.stage.vars.allMonkes,
+            13
+          );
           this.costume = "YOU!";
         }
         if (
@@ -535,6 +555,10 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 14)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(
+            this.stage.vars.allMonkes,
+            14
+          );
           this.costume = "URANIUM Mutated: Scratch Monke";
         }
         if (
@@ -543,6 +567,10 @@ export default class _8BitMonke extends Sprite {
             this.itemOf(this.stage.vars.allMonkes, 15)
           ) === 0
         ) {
+          this.stage.vars.monkeName = this.itemOf(
+            this.stage.vars.allMonkes,
+            15
+          );
           this.costume = "?pi monke";
         }
       } else {
