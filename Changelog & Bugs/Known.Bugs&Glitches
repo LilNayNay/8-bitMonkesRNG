@@ -1,0 +1,38 @@
+Before checking this doc, if there are any glitches make sure to restart the game page and try again.
+
+
+v1.4-1.4.5: Problems with the shop cooldown reducer, some unknown problems
+
+-The shop often skips through the 100-200-500 system [fixed]
+
+v1.6-1.7.4: Problems with monke custom switcher
+
+-Names wouldn’t register; (forced to use complete names) [fixed]
+
+v1.7.3-1.7.11: Problems with saving, other small known bugs/glitches
+
+-Indexing wouldn’t work with spaces in the monkes name after barlines (interfered w/ costume switcher as well. [fixed]
+-Inefficient save code writer and reader [fixed]
+
+v1.7.15-1.7.16: No known problems, inefficient controls, fixable problem
+
+-2 different keys used to activate/deactivate in controls [fixed, more efficient, less controls] 
+-Secret Monke cannot be saved currently.
+-Note: Auto roll is faster than holding space by .2 seconds because of animation latency.
+
+v1.8.0-v1.8.1: Problems w/ saving and “redo” block;
+
+-redo block would often not save all monke’s names after each roll [fixed]
+-Secret Monke cannot be saved currently.
+-save code imports take quite some time when lots of data and monkes need to be recorded* (no complaints yet)
+
+v1.8.1-7: saving issue
+
+-Monke_var didn’t save monkes after importing save [fixed]
+-Save code has to be copied inside game
+-Secret Monke cannot be saved currently
+
+
+
+
+*potential fix: Whenever a monke is received, the “redo” block will make it save an item number of a list corresponding to that monke so instead of having monke names in between each and every bar line it would look like this “2|1|3||”. The read save block section will just have to add the item # from “all monkes” to make it possible. This will take some tweaking to read save and redo value blocks but might be worth it when users are complaining.
