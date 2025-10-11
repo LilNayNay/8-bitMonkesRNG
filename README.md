@@ -1,3 +1,6 @@
+Source code will almost always have outdated software (v1.8.13) please download packages from releases!
+
+
 Intructions:
 
 E to show/hide obtained monkes
