@@ -6,7 +6,7 @@ v1.1.0 (Alpha 1) [~7/20/25]: Basic RNG base, no ad-ons. Boring with no money
 
 v1.2.0 (Alpha 2): Keeps the RNG base, adds new sprite costume, more organized, more bugs. Adds money (monee)
 
-1.2.4: Fixes most bugs.
+	1.2.4: Fixes most bugs.
 
 
 v1.3.0, 3: Adds better RNG indexing used by many other projects, adds many more rare monkes, boring, no cooldown reducer, special effects, etc.
@@ -16,8 +16,8 @@ v1.3.3: Fixes most bugs, some are left
 
 v1.4.0, 4: Adds cooldown reducer, monke effects, and better monke costumes as well as costume selector.
            
-v1.4.2: Fixes almost all bugs from past versions
-v1.4.4: chomps more bugs down
+	v1.4.2: Fixes almost all bugs from past versions
+	v1.4.4: chomps more bugs down
 
 
 v1.5.0, 5: Fixes indexing issues, adds better rarities, changes up things, adds an early auto roll feature.
@@ -28,33 +28,42 @@ v1.6: lost media
 
 v1.7, 7: adds saving!
 
-v1.7.4: Fixes many problems with the saving feature.
-v1.7.7: Fixes many more problems with saving. Adds a saving sprite.
-v1.7.8: Fixes indexing for monke lists. 
-v1.7.15: Makes the game more user-friendly, adds 1 new rare monke. Fixes saving efficiency problems
-v1.7.16: Simpler controls.
-v1.7.17: adds new monke using new system.
+	v1.7.4: Fixes many problems with the saving feature.
+	v1.7.7: Fixes many more problems with saving. Adds a saving sprite.
+	v1.7.8: Fixes indexing for monke lists. 
+	v1.7.15: Makes the game more user-friendly, adds 1 new rare monke. Fixes saving efficiency problems
+	v1.7.16: Simpler controls.
+	v1.7.17: adds new monke using new system.
 
 v1.8, 8: adds one new sprite, update was created mainly for fixing many bugs
 
-v1.8.0: adds a common monke reducer allowing users not to see that pesky common monke as much.
-v1.8.5: fixes many errors with saving specifically the “redo” block and adds new variables included with the save code. So if your old save code doesn’t work email it to me for me to fix it or deal with it.
-v1.8.6&7: adds new sprite, fixes a couple bugs.
-1.8.9: Fixes overlapping with saving sprite
-1.8.11-12: adds monke effects to certain monkeys (beta)
-1.8.13: Makes costume switcher switch monke names as well.
-1.8.14: Adds SFX to most sprites, as well as a rare monke ping sound that can be enabled.
-1.8.15: Adds Visual UI Enhancements
+	v1.8.0: adds a common monke reducer allowing users not to see that pesky common monke as 	much.
+	v1.8.5: fixes many errors with saving specifically the “redo” block and adds new 		variables included with the save code. So if your old save code doesn’t work email it to 	me for me to fix it or deal with it.
+	
+	v1.8.6&7: adds new sprite, fixes a couple bugs.
+	1.8.9: Fixes overlapping with saving sprite
+	1.8.11-12: adds monke effects to certain monkeys (beta)
+	1.8.13: Makes costume switcher switch monke names as well.
+	1.8.14: Adds SFX to most sprites, as well as a rare monke ping sound that can be 		enabled.
+	
+	1.8.15: Adds Visual UI Enhancements
+	1.8.16: Fixes major bug
+	1.8.17b#1-3: Adds new monke[cn: sleepy] (b1), fixes minor bug (b2), adds new sprite 		("WAIT!") fixes problematic bug.
+
 
 See bug & glitches doc for more information on problems and fixes.
 
 
 Version Key Guide:
 
-X.Y.Z
+X.Y.Zb#
 
 X is the major version (1: Alpha, 2: Beta, 3: Final)
 Y is the minor changes from the major version (e.g. 1.1, 1.2, 1.3, 1.4)
 Z is the incremental/patch changes and bug fixes (e.g. 1.1.1, 1.1.2, 1.1.3)
+
+Sometimes there will be a minor fix: that is where the b# comes in. After a revision the b# goes up one and resets after a minor change. For example, v1.2.3 is a normal version
+v1.2.3b45 would be a version (1.2.3) that has been revised with minuscule changes 45 times.
+b stands for build and it will not be shown in a version name when at 1.
 
 	
