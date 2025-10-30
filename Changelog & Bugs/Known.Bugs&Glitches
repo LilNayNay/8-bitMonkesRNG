@@ -32,6 +32,9 @@ v1.8.1-7: saving issue
 -Save code has to be copied inside game
 -Secret Monke cannot be saved currently
 
+v1.9.4-spooky: costume issue
+
+-(packaged-only): costume for "cooldwon_reduce" fails to work properly, more insight will be added.
 
 
 
